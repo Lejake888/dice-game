@@ -2,7 +2,7 @@ let total = 0;
 let random = 0;
 
 const randomise = () => {
-    random = Math.ceil(Math.random() * 6)
+    random = Math.floor(Math.random() * 6 + 1)
     const button = document.getElementById("rollButton")
     const image = document.getElementById("dice")
     button.textContent = "Roll"

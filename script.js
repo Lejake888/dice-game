@@ -1,8 +1,7 @@
 let total = 0;
-let random = 0;
 
 const randomise = () => {
-    random = Math.floor(Math.random() * 6 + 1)
+    let random = Math.floor(Math.random() * 6 + 1)
     const button = document.getElementById("rollButton")
     const image = document.getElementById("dice")
     button.textContent = "Roll"
@@ -22,5 +21,4 @@ const randomise = () => {
         total = 0
     }
 }
-random = 0;
 console.log("hello");
